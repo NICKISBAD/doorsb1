@@ -93,4 +93,4 @@ checkcaller()then if z(D)=='Instance'then if C(D,'Humanoid')then if E==
 C(D,'Humanoid')then if E=='WalkSpeed'then l=F return y(D,E,F+Options.WALKSPEED.
 Value)end end end end return y(D,E,F)end)end do local x=j.Character if x then u(
 x)end end do for x,y in ipairs(b.CurrentRooms:GetChildren())do task.defer(t,y)
-end end return f:Notify'[Doors] Loaded!'
+end end return f:Notify'[Doors] Loaded!'a
